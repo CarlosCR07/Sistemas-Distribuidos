@@ -9,7 +9,7 @@ void get_walltime(double* wcTime){
 }
 
 int main(int argc, char* argv[]){
-	int i, j, n=3;
+	int i, j, n=3; //Valor de n indicará tamaño de nxn en matrices
 	int **matrizA;
 	int **matrizB;
 	int **matrizC;

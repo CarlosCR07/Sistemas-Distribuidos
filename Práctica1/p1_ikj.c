@@ -9,7 +9,7 @@ void get_walltime(double* wcTime){
 }
 
 int main(int argc, char* argv[]){
-	int i, j, n=3;
+	int i, j, n=3; //Valor de n indicará tamaño de nxn en matrices
 	int **matrizA;
 	int **matrizB;
 	int **matrizC;
@@ -49,7 +49,7 @@ int main(int argc, char* argv[]){
 	}
 	get_walltime(&E1);
 
-	printf("Tiempo metodo ijk: %f s\n",(E1-S1));
+	printf("Tiempo metodo ikj: %f s\n",(E1-S1));
 	return 0;
 }
 	
